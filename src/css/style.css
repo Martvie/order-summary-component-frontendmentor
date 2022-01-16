@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%; 
+}  
+  
+body {
+    max-width: 1440;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
