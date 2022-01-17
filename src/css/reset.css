@@ -5,9 +5,10 @@
     padding: 0;
     border: none;
     outline: none;
-    font-weight: 300;
+    font-weight: 500;
     box-sizing: border-box;   
     font-family: 'Red Hat Display', sans-serif;
+    background: none;
 }
 
 img {

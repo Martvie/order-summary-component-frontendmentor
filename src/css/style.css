@@ -18,9 +18,9 @@ body {
 
 .container {
     width: 370px;
-    height: 500px;
+    height: 540px;
     background-color: white ;
-    border-radius: 5%;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,5 +94,33 @@ body {
     cursor: pointer;
     color: var(--desaturated-blue);
     text-decoration: none;
-    transition: 0.2s;
+    transition: ease-in-out, 0.5s;
+}
+
+.container .btn-proceed {
+    margin-top: 10px;
+    background-color: var(--right-blue);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    box-shadow:  0px 8px 8px  rgba(114, 128, 167, 0.4);
+}
+
+.container .btn-proceed:hover {
+    cursor: pointer;
+    background-color: var(--desaturated-blue);
+    transition: ease-in-out, 0.5s;
+}
+
+.container .btn-cancel {
+    margin-top: 30px;
+    font-weight: 700;
+    color: var(--desaturated-blue);
+}
+
+.container .btn-cancel:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+    transition: ease-in-out, 0.5s;
 }
