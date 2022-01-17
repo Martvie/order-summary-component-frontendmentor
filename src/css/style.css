@@ -44,7 +44,7 @@ body {
     color: var(--desaturated-blue);
     text-align: center;
     margin-top: 10px;
-    width: 280px;
+    width: 300px;
 }
 
 .container .plans {
@@ -52,6 +52,47 @@ body {
     background-color: var(--very-pale-blue);
     display: flex;
     flex-direction: row;
+    width: 300px;
+    height: 80px;
+    border-radius: 8%;
+    align-items: center;
+    position: relative;
 
 }
 
+.container .plans img {
+    height: 40px;
+    margin-left: 15px;
+}
+
+.container .plans .plan {
+    margin-left: 15px;
+}
+
+.container .plans .plan h3 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.container .plans .plan p {
+    font-size: 1.4rem;
+    font: 500;
+    color: var(--desaturated-blue);
+}
+
+.container .plans .btn-change {
+    right: 15px;
+    position: absolute;
+    font-weight: 700;
+    background: none;
+    text-decoration: underline;
+    color: var(--right-blue);
+}
+
+.container .plans .btn-change:hover {
+    cursor: pointer;
+    color: var(--desaturated-blue);
+    text-decoration: none;
+    transition: 0.2s;
+}
