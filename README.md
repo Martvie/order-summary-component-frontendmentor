@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/resolution-using-flexbox-WZEBsT91K)
 - Live Site URL: [Add live site URL here](https://martvie.github.io/order-summary-component-frontendmentor/)
 
 ## My process
